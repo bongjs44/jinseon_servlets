@@ -2,8 +2,10 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
 		http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
-	version="4.0" metadata-complete="true">
+	version="4.0" metadata-complete="false">
+	<!-- @WebServlet을 사용할 때는metadata-complete="false",아닐떄는 true -->
 
+<!--
 <servlet>
 		<servlet-name>helloWorld</servlet-name>
 		<servlet-class>org.jinseon.examples.HelloWorldServlet</servlet-class>
@@ -24,4 +26,5 @@
 		<url-pattern>/hello</url-pattern>
 </servlet-mapping>
 
+-->
 </web-app>
